@@ -50,7 +50,7 @@ Project_urban_area_change_detection/
 ├── README.md
 └── requirements.txt
 
-`` text
+
 ▶️ How to Run the Project
 Step 1 — Add ROI
 
@@ -73,6 +73,7 @@ python scripts/change_detection.py
 | intersect_mask.png   | Change detected by both SAR **and** optical              |
 | pre_rgb.png          | Pre-change RGB rendering                                 |
 | post_rgb.png         | Post-change RGB rendering                                |
+
 
 
 
