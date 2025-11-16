@@ -29,12 +29,12 @@ fused_confidence.tif → confidence (0–255)
 Export multiple diagnostic maps (RGB, NDBI, SAR change, union, intersection)
 
 
-
-project/
-│
+```text
+Project_urban_area_change_detection/
+├── docs/
+│   └── Final_analysis_report
 ├── input/
 │   └── roi.geojson
-│
 ├── output/
 │   ├── pre_rgb.png
 │   ├── post_rgb.png
@@ -45,12 +45,12 @@ project/
 │   ├── union_mask.png
 │   ├── intersect_mask.png
 │   └── ...
-│
 ├── src/
 │   └── change_detection.ipynb
-│
-└── README.md
+├── README.md
+└── requirements.txt
 
+`` text
 ▶️ How to Run the Project
 Step 1 — Add ROI
 
@@ -73,5 +73,6 @@ python scripts/change_detection.py
 | intersect_mask.png   | Change detected by both SAR **and** optical              |
 | pre_rgb.png          | Pre-change RGB rendering                                 |
 | post_rgb.png         | Post-change RGB rendering                                |
+
 
 
